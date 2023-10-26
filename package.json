@@ -1,0 +1,36 @@
+{
+  "name": "insta_backend",
+  "version": "1.0.0",
+  "description": "insta backend",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec babel-node server",
+    "mig" : "npx prisma migrate dev --preview-feature"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cansus4569/insta_backend.git"
+  },
+  "keywords": [
+    "insta"
+  ],
+  "author": "cansus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cansus4569/insta_backend/issues"
+  },
+  "homepage": "https://github.com/cansus4569/insta_backend#readme",
+  "dependencies": {
+    "@prisma/client": "^5.5.2",
+    "apollo-server": "^3.12.1",
+    "graphql": "^16.8.1",
+    "nodemon": "^3.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.2",
+    "@babel/node": "^7.22.19",
+    "@babel/preset-env": "^7.23.2",
+    "prisma": "^5.5.2"
+  },
+  "type": "module"
+}
